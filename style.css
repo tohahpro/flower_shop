@@ -226,3 +226,11 @@ body {
     font-weight: 400;
     margin: 2rem 0rem;
 }
+
+
+.instragram-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 12rem;
+    gap: 2rem;
+}
