@@ -1,0 +1,200 @@
+/* common styles start  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.btn-primary {
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #EEAA9C;
+
+}
+
+
+
+.high-lights {}
+
+/* header section styles start  */
+
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCEEF1;
+    margin-bottom: 10rem;
+}
+
+.header-section-text {
+    margin: 14rem 15rem 0rem;
+    padding: 1rem;
+}
+
+.header-section-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin: 0rem 0rem;
+}
+
+
+.header-section-description {
+    width: 32rem;
+    padding-bottom: 2rem;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header-section-image {
+    width: 38.625rem;
+    margin: 1.5rem 12rem 0rem 0rem;
+}
+
+
+/* Our Featured Flowers section styles  */
+
+
+.featured-section-text {
+    width: 35.75rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.featured-section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+
+.featured-section-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* featured-section-image styles  */
+.featured-section-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 12rem;
+}
+
+
+.featured-section-image-1,
+.featured-section-image-2,
+.featured-section-image-3 {
+
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-section-image-1 img {
+    width: 310px;
+    height: 428px;
+    margin: 110px 76px 0px 78px;
+}
+
+.featured-section-image-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-section-image-2 img {
+    width: 370px;
+    height: 370px;
+    margin: 117px 47px 57px 47px;
+}
+
+.featured-section-image-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+
+.featured-section-image-3 img {
+    width: 314px;
+    height: 471px;
+    margin: 66px 75px 0px 74px;
+}
+
+.featured-section-image-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+/* support section styles start  */
+
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 4rem 12rem;
+    padding: 5rem;
+}
+
+.info {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* hot deal section style */
+
+
+.hot-deal-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 10rem 0rem 8rem 0rem;
+}
+
+.hot-deal-section-text {
+    text-align: center;
+    margin-left: 15rem;
+
+}
+
+
+.hot-deal-section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+.hot-deal-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 0px 30px 0px;
+
+}
+
+
+.hot-deal-section-image {
+    width: 318px;
+    margin: 6rem 15rem;
+}
