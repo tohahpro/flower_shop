@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Cormorant Garamond', serif;
+    overflow-x: hidden;
 }
 
 .btn-primary {
@@ -92,6 +93,7 @@ body {
 .featured-section-images {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     margin: 4rem 12rem;
 }
 
@@ -179,7 +181,7 @@ body {
 
 .hot-deal-section-title {
     color: #272727;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -187,7 +189,7 @@ body {
 
 .hot-deal-section-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     margin: 0px 0px 30px 0px;
 
@@ -195,6 +197,32 @@ body {
 
 
 .hot-deal-section-image {
-    width: 318px;
+    width: 335px;
     margin: 6rem 15rem;
+}
+
+
+/* Instagram section style  */
+
+
+.instragram-section {}
+
+
+.instragram-section-text {
+    text-align: center;
+
+}
+
+.instragram-section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.instragram-section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 2rem 0rem;
 }
