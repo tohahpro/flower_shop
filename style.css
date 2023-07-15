@@ -3,13 +3,13 @@
 
 * {
 
-    max-width: 1900px;
     margin: 0;
     padding: 0;
 }
 
 body {
-
+    max-width: 1900px;
+    margin: auto;
     font-family: 'Cormorant Garamond', serif;
     overflow-x: hidden;
 }
@@ -431,6 +431,11 @@ body {
     }
 
     /* instragram section  */
+
+    .instragram-section-text {
+
+        margin: auto;
+    }
 
     .instragram-section-title {
         font-size: 29px;
