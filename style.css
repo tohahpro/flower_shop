@@ -152,6 +152,7 @@ body {
 
 
 .info-section {
+
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -172,6 +173,7 @@ body {
 
 
 .hot-deal-section {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -211,6 +213,7 @@ body {
 
 
 .instragram-section {
+
     margin: 2rem 0rem;
 
 }
@@ -245,6 +248,7 @@ body {
 /* Get The Latest Deals section style  */
 
 .latest-deal-section {
+
     margin: 5rem 12rem;
     background-image: url(images/latest-deals.png);
     background-repeat: no-repeat;
@@ -280,5 +284,200 @@ body {
     background: #FFF;
     margin-top: 2rem;
     align-items: center;
+
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    .btn-primary {
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
+    .header-section {
+        flex-direction: column;
+    }
+
+    .header-section-text {
+        margin: 10px 0px 0px;
+        padding: 1rem;
+    }
+
+    .header-section-title {
+        color: #272727;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 2rem 0rem;
+    }
+
+    .header-section-description {
+        width: 228px;
+        text-align: justify;
+        padding-bottom: 1rem;
+    }
+
+    .header-section-image {
+        width: 15.625rem;
+        margin: auto;
+    }
+
+
+
+    /* featured-section */
+
+    .featured-section {
+        display: flex;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .featured-section-text {
+        width: 20.75rem;
+        margin-bottom: 1rem;
+        justify-content: center;
+
+    }
+
+    .featured-section-title {
+        color: #272727;
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .text-description-size {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .featured-section-images {
+        flex-direction: column;
+        margin: 0;
+
+
+    }
+
+    .featured-section-image-1,
+    .featured-section-image-2,
+    .featured-section-image-3 {
+        width: 300px;
+        height: 350px;
+        margin: auto;
+    }
+
+    .featured-section-image-1 img {
+        width: 155px;
+        height: 250px;
+        margin: 100px 60px 0px 75px;
+    }
+
+    .featured-section-image-2 img {
+        width: 220px;
+        height: 220px;
+        margin: 77px 29px 50px 48px;
+    }
+
+    .featured-section-image-3 img {
+        width: 172px;
+        height: 268px;
+        margin: 80px 45px 0px 70px
+    }
+
+
+    .info-section {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 65px;
+    }
+
+    .info {
+        color: rgba(39, 39, 39, 0.80);
+        font-size: 15px;
+        font-weight: 300;
+        /* margin-bottom: 50px; */
+    }
+
+    /* hot deal section  */
+
+    .hot-deal-section {
+        flex-direction: column;
+
+    }
+
+    .hot-deal-section-text {
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .hot-deal-section-title {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    .hot-deal-section-image {
+        width: 200px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    /* instragram section  */
+
+    .instragram-section-title {
+        font-size: 29px;
+        font-weight: 500;
+        margin: 1rem;
+    }
+
+    .text-description-size {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .instragram-images {
+        flex-direction: column;
+        justify-content: center;
+
+        margin: 2rem 6rem;
+
+    }
+
+    .instragram-images img {
+        width: 170px;
+
+
+    }
+
+    /* .latest-deal-section */
+    .latest-deal-section {
+        margin: auto;
+        background: none;
+        background-color: #FEF6F8;
+    }
+
+
+    .latest-deal-section-title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .latest-deal-section-input-box input {
+        width: 260px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+
+
 
 }
